@@ -19,8 +19,8 @@ function sendEmail(formData) {
         };
 
         const confirmationMailOptions = {
-            from: 'jeesmonshaju6@gmail.com',
-            to: 'jeesmonshaju6@gmail.com',
+            from: 'examplemailid@mail.com',
+            to: 'examplemailid@mail.com',
             subject: 'One User Successfully Registered',
             html: `<b>User Details!!</b>
                   <p>Name: ${formData.name}</p>
